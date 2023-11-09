@@ -1,0 +1,564 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'poppins', sans-serif;
+}
+.head{
+height:50px;
+width:100%;
+color:#fff ;
+position: absolute;
+font-size: 0.9rem;
+z-index: 1;
+box-sizing: border-box;
+box-shadow: 0 2px 3px rgba(26, 22, 22, 0.499);
+text-transform: uppercase;
+
+}
+
+.icon-header{
+  font-weight: 800;
+  text-shadow: 0 2px 3px black;
+}
+
+li { 
+display: table-cell; 
+position: relative; 
+}
+
+.lia {
+text-decoration: none;
+display: inline-block;
+position:relative;
+}
+
+.lia:hover:after{
+width: 100%; 
+left: 0; 
+}
+
+
+.lia:after {    
+background: none repeat scroll 0 0 transparent;
+bottom: 0;
+content: "";
+display: block;
+height: 2px;
+left: 50%;
+position: absolute;
+background: #fa8145;
+transition: width 0.3s ease 0s, left 0.3s ease 0s;
+width: 0;
+}
+
+@media screen and (max-width:992px){
+  .navbar-dark.bg-transparent{
+    background-color: rgb(55, 55, 55) !important;
+  }
+}
+
+.container1{
+    height: 470px;
+    width:100%;
+    background-image: url(https://evreka.co/wp-content/uploads/2021/04/Food-Waste-Collection-Software-for-a-Better-Environment-and-Easy-Management-scaled.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 22%;
+    background-blend-mode:darken;
+}
+.heading{
+    position: absolute;
+    top:455%;
+    left: 3%;
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+
+.center-div{
+    position: absolute;
+    height: 400px;
+    width:100%;
+    background-color:white;
+}
+.p{
+  position: absolute;
+  font-size: 1.4rem;
+  color: rgba(60, 59, 59, 0.8);
+  font-family: sans-serif;
+  line-height: 1.9;
+  text-transform: none;
+  top:19%;
+  left: 3%;
+  right: 3%;
+
+}
+
+.center-div1{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top:1850%;
+    background-color:white;
+}
+.box1{
+    position: absolute;
+    float:left;
+    height: 330px;
+    width:30%;
+    left: 3%;
+    top:14%;
+    background-color: white;
+    border: none;
+    background-image: url(https://plus.unsplash.com/premium_photo-1663100339331-eae4b45f5e18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0px 6px 6px  rgba(117, 114, 114, 0.319);
+}
+.box2{
+    position: absolute;
+    float:left;
+    height: 330px;
+    width:30%;
+    left:35%;
+    top:14%;
+    background-color: white;
+    border: none;
+    background-image: url(https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2016/07/10/Pictures/food-ngo_959a19b6-4609-11e6-8e05-c384b245cd95.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0px 6px 6px  rgba(117, 114, 114, 0.319);
+}
+.box3{
+    position: absolute;
+    float:right;
+    height: 330px;
+    width:30%;
+    left:67%;
+    top:14%;
+    right: 10%;
+    background-color: white;
+    border: none;
+    background-image: url(https://onecms-res.cloudinary.com/image/upload/s--3PFmVzvL--/c_crop,h_576,w_1024,x_0,y_87/c_fill,g_auto,h_468,w_830/f_auto,q_auto/v1/mediacorp/cna/image/2021-09/063_gyi0057239735.jpg?itok=R2meuQ4y);
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0px 6px 6px  rgba(117, 114, 114, 0.319);
+}
+/* Container - 4 */
+
+.container2{
+  position: absolute;
+  top:2830%;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;   
+  width: 100%; 
+  height:650px; 
+  background-color:white;
+}
+
+.right-box{
+  height: 550px; 
+  width:45%;
+  float: left;
+  background-color: white;  
+}
+#heading{
+ font-size: 3rem;
+ font-weight: bold;
+ color: black;
+}
+#border-2{
+  position: absolute;
+  border-bottom: 3px solid black;
+  width:110px;
+  padding-top: 10px;
+}
+#sub-title{
+  padding-top: 50px;
+  line-height: 2;
+  font-size: 1.1rem;
+  color: rgba(75, 73, 73, 0.685);
+  text-transform: none;
+  font-family: sans-serif;
+}
+.left-box{
+  height: 550px;
+  width: 45%;
+  float: left;
+  left: 3%;
+  background-color: white;
+}
+.image{
+  position: absolute;
+  width: 470px;
+  height:500px;
+  top:15%;
+  left:10%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+  box-shadow: -45px -45px rgb(239, 79, 20);
+  background-image: url(https://images.unsplash.com/photo-1574676039880-73da8368f0eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+}
+
+.container3{
+  position: absolute;
+  height: 230px;
+  width: 100%;
+  top:4180%;
+  background-color:rgba(90, 89, 89, 0.393);
+
+}
+.heading2{
+  position: absolute;
+  font-size: 2rem;
+  color:black;
+  font-weight: 600;
+  left:31%;
+  top:9%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-family: sans-serif;
+}
+
+/*Footer*/
+ .f{
+  height: 55px;
+  width:100%;
+  margin-top: 124%;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+  width:100%;
+background: #3f3f3f;
+position: absolute;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #E62C03;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+margin-bottom: 5px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+color: #7e7e7e;
+line-height: 25px;
+text-transform: none;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+margin-left: 15px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+margin-left: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #DD4B39;
+}
+.instagram-bg{
+background: #d839ddd1;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #E62C03;
+}
+.footer-widget ul li {
+display: inline-block;
+float:left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #E62C03;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #E62C03;
+  padding: 13px 20px;
+  border: 1px solid #E62C03;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #2E2E2E;
+padding: 15px 0;
+}
+
+.copyright-text{
+  display: flex;
+  justify-content:center;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #E62C03;
+}
+.footer-menu li {
+display: inline-block;
+}
+.footer-menu li:hover a{
+color: #E62C03;
+}
+.footer-menu li a {
+font-size: 14px;
+color:#878787;
+}
+
+
+
+/*Responsive*/
+@media screen and (min-width:280px) and (max-width:1450px){
+  .container1{
+    height: 320px;
+    background-size: cover;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .heading{
+    position: absolute;
+    display: flex;
+    font-size: 2.5rem;
+    top:210%;
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .center-div{
+    position: absolute;
+    height:800px ;
+  }
+}
+
+@media screen and (min-width:280px) and (max-width:1450px){
+  .p{
+    position: absolute;
+    font-size: 1rem;
+    top:7%;
+  }
+}
+
+@media screen and (min-width:280px) and (max-width:1450px){
+  .center-div1{
+    height: 600px !important;
+    position: absolute;
+    top:2150%;
+   
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .box1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 160px;
+    width: 93%;
+    top:7%;
+    background-size: cover;
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .box2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:40%;
+    height: 160px;
+    width: 93%;
+    left:3%;
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .box3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:73%;
+    height: 160px;
+    width: 93%;
+    left:3.5%;
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .container2{
+    position: absolute;
+    height: 1590px;
+    top:3351%;
+    overflow: hidden;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:280px) and (max-width:1450px){
+  .left-box{
+    position: absolute;
+    top:3%;
+    left:-1%;
+    overflow: hidden;
+    height: 500px;
+    width: 101%;
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .image{
+    position: absolute;
+    top:10%;
+    height: 500px;
+    left:6%;
+    width: 90%;
+    box-shadow: -13px -13px rgb(239, 79, 20);
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .right-box{
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top:37%;
+  }
+}
+
+@media screen and (min-width:280px) and (max-width:1450px){
+#sub-title{
+  font-size: 1.1rem;
+  padding-left: 2%;
+}
+}
+
+@media screen and (min-width:280px) and (max-width:1450px){
+#heading{
+  font-size: 2rem;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .container3{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    top:6530%;
+  }
+}
+
+@media screen and (min-width:280px) and (max-width:1450px){
+  .heading2{
+    position: absolute;
+    font-size: 15px;
+    left: 7%;
+  }
+}
+@media screen and (min-width:280px) and (max-width:1450px){
+  .icon{
+    position: absolute;
+    left:35%;
+    top:7%;
+    line-height: 9;
+  }
+}
+
+@media screen and (min-width:280px) and (max-width:1450px){
+  .f{
+    position: absolute;
+    top:6100%;
+  }
+}

@@ -1,0 +1,413 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+  }
+  .head{
+  height:50px;
+  width:100%;
+  color:#fff ;
+  position: absolute;
+  font-size: 0.9rem;
+  z-index: 1;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px rgba(26, 22, 22, 0.499);
+  text-transform: uppercase;
+  
+  }
+  
+  .icon-header{
+    font-weight: 800;
+    text-shadow: 0 2px 3px black;
+  }
+  
+  li { 
+  display: table-cell; 
+  position: relative; 
+  }
+  
+  .lia {
+  text-decoration: none;
+  display: inline-block;
+  position:relative;
+  }
+  
+  .lia:hover:after{
+  width: 100%; 
+  left: 0; 
+  }
+  
+  
+  .lia:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fa8145;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  }
+  
+  @media screen and (max-width:992px){
+    .navbar-dark.bg-transparent{
+      background-color: rgb(55, 55, 55) !important;
+    }
+  }
+  
+/*Header*/
+.header{
+    height: 520px;
+    width:100%;
+    background-image: url(https://newvisionerfec.org/wp-content/gallery/gallery/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 60%;
+    background-blend-mode:darken;
+}
+.header::before{
+  content:"";
+  height:520px;
+  width:100%;
+  left:0;
+  right:0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.533);
+}
+.heading{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    left: 50%;
+    padding-top: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 4rem;
+    font-weight:bolder;
+    color:white;
+  }
+
+  .center-div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 419px;
+    padding-top: -8%;
+    padding-left: 37%;
+    color: black;
+    font-size: 4rem;
+  }
+
+  #border-1{
+    position: absolute;
+    top:65%;
+    left: 51%;
+    border-bottom: 3px solid black;
+    transform:translate(-50%,-50%); 
+    width: 300px;
+  }
+  
+  /*Grid*/
+  .grid-container{
+    height: 970px;
+    display: grid;
+    gap:30px;
+    padding:10px;
+    margin-top: 25%;
+  }
+  .grid-item{
+    background-color: white;
+    padding: 20px;
+  }
+  .item1{
+    grid-column: 1 / span 2 ;
+    grid-row: 1;
+    background-image: url(https://lh4.googleusercontent.com/5ScWBzvreNXZG_2P5Dz_k-ygXcDAJX0rd-vSd7pVDhZn7BFzii7hbGnof8fPcN-eNeCJdQrMzX3qHj7xvca0li1vST4HQztg8DcnWkmm4wGEt51Fc1rfr3yfaRumm92DnoKRJWL1MV4-n1E4y6yYSkwI3TTqQP0wE2sNQB0Y7T7Xj_ky_4FoOI_W_Q);
+    background-position: 30% 50%;
+    background-size: cover;
+  }
+  .item2{
+    grid-column: 3 ;
+    grid-row: 1 / span 2;
+    height: 95%;
+    background-image: url(https://petofy.blob.core.windows.net/petofycontainer/2021-09-01/20210901T063324738.jpeg);
+    background-position: 20% 40%;
+    background-size: cover;
+  }
+  .item3{
+    background-image: url(https://www.globalgiving.org/pfil/5067/pict_large.jpg);
+    background-size: cover;
+  }
+  .item4{
+    background-image: url(https://serudsindia.org/wp-content/uploads/2020/10/children-in-seruds-orphanage-kurnool.jpg);
+    background-size: cover;
+  }
+  .item5{
+    grid-column: 1;
+    grid-row: 3;
+    background-image: url(https://media.istockphoto.com/id/805831906/photo/hungry-street-dogs.webp?b=1&s=170667a&w=0&k=20&c=mwZVCeXmuKGiZexOYBV6jqS4rRPhQXk0XhXLhYVX1Ao=);
+    background-size: cover;
+  }
+  .item6{
+    background-image: url(https://ehealth.eletsonline.com/wp-content/uploads/2019/10/Indian-NGO.jpg);
+    background-size: cover;
+  }
+  .item7{
+    background-image: url(https://thecsrjournal.in/wp-content/uploads/2022/10/Dogs-enjoying-a-meal-at-VOSD-sanctuary-1024x768.jpg);
+    background-size: cover;
+  }
+  
+  /*Footer*/
+  .f{
+    height: 55px;
+    width:100%;
+    margin-top: 6%;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer-section {
+  width:100%;
+  background: #3f3f3f;
+  position: absolute;
+  }
+  .footer-cta {
+  border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+  color: #E62C03;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+  }
+  .cta-text {
+  padding-left: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  }
+  .cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  }
+  .cta-text span {
+  color: #757575;
+  font-size: 15px;
+  }
+  .footer-content {
+  position: relative;
+  z-index: 2;
+  }
+  .footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+  }
+  .footer-logo {
+  margin-bottom: 30px;
+  }
+  .footer-logo img {
+    max-width: 200px;
+  }
+  .footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 25px;
+  text-transform: none;
+  }
+  .footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  }
+  .footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+  margin-left: 15px;
+  }
+  .footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  }
+  .facebook-bg{
+  background: #3B5998;
+  }
+  .twitter-bg{
+  background: #55ACEE;
+  }
+  .google-bg{
+  background: #DD4B39;
+  }
+  .instagram-bg{
+  background: #d839ddd1;
+  }
+  .footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  }
+  .footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #E62C03;
+  }
+  .footer-widget ul li {
+  display: inline-block;
+  float:left;
+  width: 50%;
+  margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover{
+  color: #E62C03;
+  }
+  .footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+  }
+  .subscribe-form {
+  position: relative;
+  overflow: hidden;
+  }
+  .subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #E62C03;
+    padding: 13px 20px;
+    border: 1px solid #E62C03;
+    top: 0;
+  }
+  .subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+  }
+  .copyright-area{
+  background: #2E2E2E;
+  padding: 15px 0;
+  }
+
+  .copyright-text{
+    display: flex;
+    justify-content:center;
+  }
+  .copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+  }
+  .copyright-text p a{
+  color: #E62C03;
+  }
+  .footer-menu li {
+  display: inline-block;
+  }
+  .footer-menu li:hover a{
+  color: #E62C03;
+  }
+  .footer-menu li a {
+  font-size: 14px;
+  color:#878787;
+  }
+
+  /*Responsive*/
+  @media screen and (max-width:950px) {
+    .header{
+      height: 300px;
+      position: absolute;
+      background-size: cover;
+      overflow: hidden;
+    }
+    .header::before{
+      content:"";
+      height:320px;
+      width:100%;
+      top:0%;
+      position: absolute;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.533);
+    }
+    .heading{
+      width: 100%;
+      font-size: 2rem;
+      position: absolute;
+      padding-top: 70%;
+      padding-left: 6%;
+    }   
+  }
+
+  @media screen and(max-width:900px) {
+    .center-div{
+      position: absolute;
+      display:flex;
+      font-size: 1rem !important;
+      padding-top: 70% !important;
+      overflow: hidden;
+    }
+    #border-1{
+      position: absolute;
+      top:60%;
+    }
+  }
+    
+  @media screen and (max-width:725px){
+    .grid-container{
+      padding-top: 110%;
+      overflow: hidden;
+    }
+    .center-div{
+      position: absolute;
+      display:flex;
+      font-size: 2rem !important;
+      padding-top: 80% !important;
+      padding-left: 20%;
+      overflow: hidden;
+    }
+
+    #border-1{
+      position: absolute;
+      top:90% !important;
+      width: 150px;
+      left: 52%;
+    }
+
+    .grid-item{
+      flex-direction: column;
+      width: 100%;
+    }
+    .item2{
+      background-size: cover;
+      background-position: 12% 35%  ;
+    }
+  }
